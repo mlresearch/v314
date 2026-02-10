@@ -1,0 +1,78 @@
+@Proceedings{afrilang25,
+    booktitle = {Proceedings of the AI for African Languages Conference 2025},
+    name = {AI for African Languages Conference},
+    shortname = {AfriLang},
+    year = {2025},
+    editor = {Bainomugisha, Engineer and Mwebaze, Ernest and Kimera, Richard and Nabende, Joyce Nakatumba and Katumba, Andrew and Quinn, John},
+    volume = {314},
+    start = {2025-10-10},
+    end = {2025-10-10},
+    address = {Kampala, Uganda},
+    conference_url = {https://afrilangai.github.io/},
+    conference_number = {1},
+    sections = {Preface|Invited Papers|Contributed Papers}
+}
+
+@InProceedings{afrilang25preface,
+    title = {Preface},
+    author = {Bainomugisha, Engineer and Mwebaze, Ernest and Kimera, Richard and Nabende, Joyce Nakatumba and Katumba, Andrew and Quinn, John},
+    pages = {i--iv},
+    section = {Preface},
+    abstract = {This volume contains the proceedings of the AI for African Languages Conference 2025, held in Kampala, Uganda. The conference brings together researchers and practitioners working on natural language processing and speech technologies for African languages. Out of 12 submissions received, 7 papers were accepted for publication, including one invited paper. We thank the authors, reviewers, and organizing committee for their contributions to the success of the conference.}
+}
+
+@InProceedings{akera25a,
+    title = {Sunflower: A New Approach to Expanding Coverage of African Languages in Large Language Models},
+    author = {Akera, Benjamin and Ouma, Evelyn Nafula and Yiga, Gilbert and Walukagga, Patrick and Natukunda, Phionah and Saaka, Trevor and Nsumba, Solomon and Nabukeera, Lilian Teddy and Muhanguzi, Joel Tibabwetiza and Sekalala, Imran and Namara, Nimpamya Janat and Bainomugisha, Engineer and Mwebaze, Ernest and Quinn, John},
+    pages = {1--20},
+	section = {Invited Papers},
+    abstract = {There are more than 2000 living languages in Africa, most of which have been bypassed by advances in language technology. Current leading large language models exhibit strong performance on a number of widely spoken languages such as Swahili or Yoruba, but prioritize support for languages with the largest speaker populations, resulting in uneven coverage. We argue that a regionally focused approach is more efficient and present a case study for Uganda, a country with high linguistic diversity. We describe the development of Sunflower 14B and 32B, two models based on Qwen 3 that achieve state-of-the-art comprehension across the majority of Ugandan languages. These open-source models can help reduce language barriers in a range of practical applications.}
+}
+
+@InProceedings{obrian25,
+    title = {Sauti Halisi: Towards Direct Speech-to-Text Translation for Colloquial and Code-Switched Swahili},
+    author = {O'Brian, Gill},
+    pages = {21--26},
+	section = {Contributed Papers},
+    abstract = {Standard Swahili forms the basis of most existing language technologies, yet everyday communication across East Africa relies heavily on colloquial and code-switched varieties such as Sheng and Swahili-English. This mismatch leads to large performance gaps in speech recognition and translation systems, which are further amplified by cascaded ASR and machine translation pipelines. This paper introduces the Sauti Halisi project, which fine-tunes a multilingual, multimodal foundation model for direct speech-to-text translation from colloquial Swahili to English. By bypassing intermediate transcription, the system handles informal speech, slang, and code-switching more robustly than cascaded baselines, representing a step toward more inclusive language technologies.}
+}
+
+@InProceedings{magala25,
+    title = {Promoting Uganda's Major Local Languages: Introducing Luganda Text Generation Models and Diverse Accent-Aware TTS Models},
+    author = {Kisejjere, Rashid and Magala, Reuben and Sserwadda, Abubakhari},
+    pages = {27--32},
+	section = {Contributed Papers},
+    abstract = {Despite recent advances in large language models, most of Uganda's over 40 indigenous languages remain underrepresented in natural language processing systems. This work introduces ugGPT, an open instruction-tuned model designed specifically for Luganda, spoken by over 20 million people. We also release a 200 million token monolingual Luganda corpus and a culturally contextualized instruction dataset with over 70,000 examples. In addition, we present accent-aware text-to-speech models for English, Luganda, Runyankole, Acholi, and Iteso, fine-tuned from the Orpheus 3B architecture. Experimental results show that ugGPT outperforms multilingual baselines and that the speech models generate intelligible and natural audio for low-resource languages.}
+}
+
+@InProceedings{amol25,
+    title = {Tonative: Community-Driven Extension of African Datasets Through Human-AI Collaboration},
+    author = {Amol, Cynthia Jayne and Ibejih, Sharon},
+    pages = {33--36},
+	section = {Contributed Papers},
+    abstract = {Sustainable creation of language resources for African languages remains a major challenge, leaving many languages severely low-resource. While community-driven approaches are effective, they are difficult to scale, and purely synthetic data risks introducing translation artifacts and bias. This paper presents Tonative, a human-AI collaborative framework that extends existing datasets by translating them into additional African languages. The approach combines automated translation with community-based validation, reducing human workload while preserving linguistic authenticity. The proposed framework supports more sustainable and scalable development of African language resources.}
+}
+
+@InProceedings{kariuki25,
+    title = {Bridging the Language Gap: Fine-Tuning Llama for Machine Translation in Low-Resource African Languages},
+    author = {Kariuki, Mary Wambui and Muguro, Joseph and Maina, Ciira wa and Wanzare, Lilian Diana Awuor},
+    pages = {37--40},
+	section = {Contributed Papers},
+    abstract = {We adapt a pretrained large language model to support Kikuyu, a low-resource African language. A dataset of 140,000 English-Swahili-Kikuyu sentence pairs was collected across multiple domains, with a 30,000 sentence English-Kikuyu subset used for training. After preprocessing and normalization, the Llama 3.2 (3B) model was fine-tuned using parameter-efficient techniques. The resulting system achieves a BLEU score of 25.21, demonstrating the effectiveness of transfer learning for low-resource machine translation.}
+}
+
+@InProceedings{akera25b,
+    title = {How Much Speech Data is Necessary for ASR in African Languages? An Evaluation of Data Scaling in Kinyarwanda and Kikuyu},
+    author = {Akera, Benjamin and Walukagga, Patrick and Yiga, Gilbert and Quinn, John and Mwebaze, Ernest},
+    pages = {41--49},
+	section = {Contributed Papers},
+    abstract = {Automatic speech recognition for low-resource African languages is limited by scarce transcribed data. This paper evaluates data requirements using the Whisper model through systematic scaling experiments on Kinyarwanda from 1 to 1,400 hours and detailed error analysis on Kikuyu with 270 hours of data. Results show that usable ASR performance with word error rate below 13 percent is achievable with approximately 50 hours of data, with continued gains up to 200 hours. Error analysis reveals that transcription noise accounts for 38.6 percent of high-error cases, highlighting the importance of data quality alongside data volume.}
+}
+
+@InProceedings{srikumar25,
+    title = {Robust Tokenization for Low-Resource Oromo Medical Texts via Novel Lightweight Augmentation},
+    author = {Srikumar, Karthik},
+    pages = {50--55},
+	section = {Contributed Papers},
+    abstract = {Afaan Oromo presents challenges for natural language processing due to complex morphology and inconsistent spelling, particularly in medical texts. This paper proposes a rule-based data augmentation method that generates synthetic sentence variants using Oromo-specific linguistic rules. Applied to a set of 500 medical sentences, the approach produces 1,500 augmented samples and reduces tokenization errors by 50 percent. Improvements are also observed in token fertility and vocabulary coverage, supporting more effective medical NLP applications in low-resource settings.}
+}
