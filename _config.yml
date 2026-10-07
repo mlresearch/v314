@@ -3,7 +3,7 @@ booktitle: Proceedings of the AI for African Languages Conference 2025
 shortname: AfriLang
 year: '2025'
 volume: '314'
-start: &1 2025-10-10
+start: 2025-10-10
 end: 2025-10-10
 published: 2026-02-27
 conference_number: '1'
@@ -89,7 +89,7 @@ conference:
   url: https://afrilangai.github.io/
   location: Kampala, Uganda
   dates:
-  - *1
+  - 2025-10-10
 analytics:
   google:
     tracking_id: UA-92432422-1
